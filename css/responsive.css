@@ -1,0 +1,106 @@
+
+/* fix responsive tablet */
+@media (min-width: 768px) and (max-width: 992px){
+    .hide-on-tablet{
+        display: none;
+    }
+    #banner{
+        background-image: none;
+        padding-top: 24%;
+        margin-top: -20px;
+    }
+    #text-banner{
+        color: #000;
+        
+    }
+    .col{
+        padding-left: 0px;
+        padding-right: 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .item-img{
+        margin-top: 0;
+    }
+    .footer-text{
+        padding-left: 0;
+        margin-left: -8px;
+    }
+    .mt-left{
+        margin-left: 60px;
+    }
+    .img{
+        width: 95%;
+    }
+}
+/* mobi */
+@media (max-width: 767px){
+    .hide-on-mobi{
+        display: none;
+    }
+    #banner{
+        background-image: none;
+        margin-top: -40px;
+        padding-top: 50%;
+    }
+    #text-banner{
+        color: black;
+        left: 10px;
+    }
+    #text-sub-banner{
+        padding: 40px 10px;
+    }
+    .col {
+        padding-left: 6px;
+        padding-right: 0px;
+    }
+    .item-mobi{
+        margin-top: 10px;
+    }
+}
+
+/* Mobi && tablet */
+@media (max-width: 992px){
+    .hide-on-mobi-tablet{
+        display: none;
+    }
+}
+
+/* Navigation mobile + tablet */
+@media (max-width: 992px){
+    .nav-btn-mobi{
+        display: block;
+    }
+    .nav-pc{
+        display: none;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@media (min-width: 993px){
+    /* #text-sub-banner{
+        position: absolute;
+        left: 25%;
+        display: block;
+        padding: 40px;
+        
+    }
+    #text-banner{
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        color: #fff;
+        font-size: 25px;
+    }
+    #text-banner > h1{
+        margin-bottom: 10px;
+        font-size: 60px;
+    } */
+}

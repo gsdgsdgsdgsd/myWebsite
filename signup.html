@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/signup.css"> -->
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* dung chung */
+.mt-bottom{
+    margin-bottom: 20px; 
+}
+.pad{
+    padding: 10px;
+}
+/* end */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, #7b4397, #dc2430);
+}
+.header{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 600px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 10px;
+    border:1px solid #ccc;
+}
+.header-form{
+    padding: 30px;
+}
+.header-title{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.header-login-choice{
+    display: flex;
+    justify-content:space-between;
+    font-weight: 700;
+    font-size: 20px;
+}
+.header-signup{
+    margin-top: 20px;
+    display: flex;
+}
+.header-box-number{
+    padding: 15px;
+    width: 270px;
+    margin-right: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.header-resign{
+    padding:0 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #fc511d;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+.header-box-signin{
+    background-color: rgb(57, 166, 255);
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.header-box-fb{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(57, 166, 255);
+    border-radius: 5px;
+    border:none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <form class="header-form">
+                <div class="header-title mt-bottom">
+                    <h2>Tham gia với chúng tôi với tư cách là thành viên.</h2>
+                </div>
+                <div class="header-login-choice mt-bottom">
+                    <p>Số điện thoại</p>
+                    <a style="margin-right: 25%;color: rgb(57, 166, 255); cursor: pointer;">Sử dụng email?</a>
+                </div>
+                <span style="font-weight: 700;">Dữ liệu của bạn sẽ được giữ bí mật và an toàn.</span>
+                <div class="header-signup mt-bottom">
+                    
+                    <div class="header-number-phone">
+                        <input class="header-box-number" type="text" placeholder="VD:0123456789">
+                    </div>
+                    <button class="header-resign">Tham gia</button>
+                </div>
+                <span style="font-weight: 700;">Lưu ý rằng bạn không cần nhập mã quốc gia hoặc giá trị thay thế của nó.</span>
+                <div class="header-box-signin mt-bottom" style="margin-top: 20px;padding: 20px;">
+                    <p>Đã đăng ký?<a style="padding-left: 10px;color: cyan;" href="">Đăng nhập</a></p>
+                </div>
+                <div class="mt-bottom">
+                    <p>Bằng cách đăng ký, tôi đồng ý với<strong> Điều khoản & Điều kiện</strong>và <strong>Chính sách Bảo mật</strong> của Mytravel.</p>
+                </div>
+                <button class="header-box-fb">Đăng nhập bằng Faceboook</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
